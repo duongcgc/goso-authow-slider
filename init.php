@@ -15,8 +15,8 @@ if ( ! defined( 'ABSPATH' ) )
 /**
  * Define
  */
-define( 'PENCI_SLIDER_DIR', plugin_dir_path( __FILE__ ) );
-define( 'PENCI_SLIDER_URL', plugin_dir_url( __FILE__ ) );
+define( 'GOSO_SLIDER_DIR', plugin_dir_path( __FILE__ ) );
+define( 'GOSO_SLIDER_URL', plugin_dir_url( __FILE__ ) );
 
 /**
  * Goso_Slider_Main_Class Class
@@ -82,7 +82,7 @@ if ( ! class_exists( 'Goso_Slider_Main_Class' ) ) :
 				'menu_name'     => __( 'Goso Slider', 'gosodesign' )
 			);
 
-			$gososlider_icon = PENCI_SLIDER_URL . '/images/goso-icon.png';
+			$gososlider_icon = GOSO_SLIDER_URL . '/images/goso-icon.png';
 
 			$args = array(
 				'labels'              => $labels,
